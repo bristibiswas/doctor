@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f8f5f2;
+}
+
+.scard-1 {
+  background-color: rgba(231, 186, 186, 0.15);
+}
+
+.scard-2 {
+  background-color: rgba(138, 225, 237, 0.19);
+}
+
+.scard-3 {
+  background-color: rgba(237, 245, 97, 0.23);
+}
+
+.scard-4 {
+  background-color: rgba(115, 249, 161, 0.19);
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.b-btn {
+  border-radius: 37px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: capitalize;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.b-btn-primary {
+  background: linear-gradient(90deg, #cf9f78 0%, #cf9f78 100%) border-box;
+  color: #f8f5f2;
+}
+
+.b-btn-primary:hover {
+  background: rgba(155, 73, 25, 0.78);
+  color: #f8f5f2;
+}
+
+.b-btn-secondary {
+  background: linear-gradient(90deg, #f8f5f2 0%, #f9ede0 100%) border-box;
+  color: #ad795b;
+}
+
+.b-btn-secondary:hover {
+  background: #f8f5f2;
+  border-color: #cf9f78;
+  color: #ad795b;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ad795b;
+  text-transform: capitalize;
+}
+
+.paragraph {
+  font-size: 17px;
+  font-weight: 400;
+  color: #e1b07f;
+  text-transform: capitalize;
+}
+
+.selectDate-btn {
+  width: 21%;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 13px;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: capitalize;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.weeks-list {
+  font-weight: 500;
+  cursor: default;
+}
+
+.days-list {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+
+.appoinment-section {
+  margin: 30px 40px;
+  margin-top: 24vh;
+}
+.appoinment-section .appoinment-card {
+  display: flex;
+}
+.appoinment-section .appoinment-card .appoinment-left {
+  width: 45%;
+  padding: 20px;
+}
+.appoinment-section .appoinment-card .appoinment-left img {
+  width: 100%;
+}
+.appoinment-section .appoinment-card .appoinment-right {
+  width: 50%;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box {
+  padding: 2vw;
+  border-radius: 10%;
+  background-color: rgba(251, 232, 213, 0.3882352941);
+  justify-content: center;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box h4 {
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #cf9f78;
+  /* margin-left: 20px; */
+  text-align: center;
+  /* padding: 21px 20px 0px 20px;*/
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box .input-group {
+  margin: 1vw;
+  padding: 0 2vw;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box .input-group .input-group-one {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 30px;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box .input-group .input-group-one .inputs {
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  display: block;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box .input-group .input-group-two {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 30px;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box .input-group .input-group-two .inputs {
+  width: 45%;
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  display: block;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-box .input-group .input-group-des .textarea-input {
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  display: block;
+}
+.appoinment-section .appoinment-card .appoinment-right .appoinment-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=appoinment.css.map */

@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #f8f5f2;
+}
+
+$dark-color: #ad795b;
+$semidark-color: #cf9f78;
+$light-color: #f8f5f2;
+
+.scard-1 {
+  background-color: rgb(231 186 186 / 15%);
+}
+.scard-2 {
+  background-color: rgb(138 225 237 / 19%);
+}
+.scard-3 {
+  background-color: rgb(237 245 97 / 23%);
+}
+.scard-4 {
+  background-color: rgb(115 249 161 / 19%);
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.b-btn {
+  border-radius: 37px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: capitalize;
+  cursor: pointer;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.b-btn-primary {
+  background: linear-gradient(90deg, #cf9f78 0%, #cf9f78 100%) border-box;
+  // border-color: transparent;
+  color: #f8f5f2;
+  // transition: 0.5s ease-in-out;
+}
+.b-btn-primary:hover {
+  background: rgb(155 73 25 / 78%);
+  // border-color: #CF9F78;
+  color: #f8f5f2;
+  // transition: 0.5s linear all;
+}
+
+.b-btn-secondary {
+  background: linear-gradient(90deg, #f8f5f2 0%, #f9ede0 100%) border-box;
+  color: #ad795b;
+}
+.b-btn-secondary:hover {
+  background: #f8f5f2;
+  border-color: #cf9f78;
+  color: #ad795b;
+
+  // transition: 0.5s linear all;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 800;
+  color: $dark-color;
+  text-transform: capitalize;
+}
+.paragraph {
+  font-size: 17px;
+  font-weight: 400;
+  color: #e1b07f;
+  text-transform: capitalize;
+}
+
+.selectDate-btn {
+  width: 21%;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 13px;
+  font-size: 12px;
+  display: inline-block;
+  // font-weight: 400;
+  border: 1px solid #ccc;
+  // line-height: 1.5;
+  color: black;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  text-transform: capitalize;
+  cursor: pointer;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.weeks-list {
+  font-weight: 500;
+  cursor: default;
+}
+.days-list {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+
+.appoinment-section {
+  margin: 30px 40px;
+  margin-top: 24vh;
+
+  .appoinment-card {
+    display: flex;
+    .appoinment-left {
+      width: 45%;
+      padding: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+    .appoinment-right {
+      width: 50%;
+
+      .appoinment-box {
+        padding: 2vw;
+        // border: 1px solid;
+        border-radius: 10%;
+        background-color: #fbe8d563;
+        justify-content: center;
+
+        h4 {
+          font-size: 35px;
+          font-weight: 800;
+          text-transform: capitalize;
+          color: #cf9f78;
+          /* margin-left: 20px; */
+          text-align: center;
+          /* padding: 21px 20px 0px 20px;*/
+        }
+
+        .input-group {
+          margin: 1vw;
+          padding: 0 2vw;
+
+          .input-group-one {
+            display: flex;
+            gap: 1rem;
+            padding-bottom: 30px;
+
+            .inputs {
+              width: 100%;
+              padding: 15px 10px;
+              // margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 14px;
+              outline: none;
+              display: block;
+            }
+          }
+
+          .input-group-two {
+            display: flex;
+            gap: 1rem;
+            padding-bottom: 30px;
+
+            .inputs {
+              width: 45%;
+              padding: 15px 10px;
+              // margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 14px;
+              outline: none;
+              display: block;
+            }
+          }
+
+          .input-group-des {
+            .textarea-input {
+              width: 100%;
+              // height: 130px;
+              padding: 15px 10px;
+              margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 14px;
+              outline: none;
+              display: block;
+            }
+          }
+        }
+      }
+      .appoinment-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

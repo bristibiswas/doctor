@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.login-container {
+  padding: 7vw 8vw;
+}
+.login-container .appoinment-section {
+  display: flex;
+  flex-direction: column;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-card {
+  display: flex;
+  padding: 15px 50px 15px 50px;
+  overflow: hidden;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-card .appoinment-signupleft {
+  width: 50%;
+  background-color: #cf9f78;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: #cf9f78 0px 7px 11px -1px;
+  position: relative;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-card .appoinment-signupleft h3 {
+  position: absolute;
+  font-size: 45px;
+  color: rgba(249, 232, 218, 0.6392156863);
+  font-weight: 600;
+  text-align: center;
+  top: 15%;
+  left: 27%;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-card .appoinment-signupleft img {
+  position: absolute;
+  width: 100%;
+  top: 42%;
+  left: 3%;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-card .appoinment-left {
+  width: 50%;
+  background-color: #cf9f78;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: #cf9f78 0px 7px 11px -1px;
+  position: relative;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-card .appoinment-left img {
+  position: absolute;
+  width: 100%;
+  top: 17%;
+  left: 3%;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right {
+  width: 50%;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: #cf9f78 5px 5px 12px -2px;
+  overflow: hidden;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box {
+  padding: 29px 32px;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box h4 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #cf9f78;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box .input-group {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box .input-group label {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #cf9f78;
+  padding: 10px 0;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box .input-group .inputs {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  display: block;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box .input-group .signup-btn {
+  width: 100%;
+  padding: 15px 5px;
+  background-color: #cf9f78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 10px 0;
+  cursor: pointer;
+  outline: none;
+}
+.login-container .appoinment-section .appoinment-cardbox .appoinment-right .appoinment-box .input-group p {
+  padding: 12px 9px;
+  font-size: 14px;
+  color: #7e8787;
+}
+.login-container .appoinment-section .appoinment-bottom-box {
+  padding: 0 120px;
+  margin: 0px 50px;
+}
+.login-container .appoinment-section .appoinment-bottom-box .thin-line-group {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center the content */
+  padding: 10px 0px;
+}
+.login-container .appoinment-section .appoinment-bottom-box .thin-line-group .thin-line {
+  width: 19%; /* Set the width to 50px */
+  border-top: 1px solid #ccc; /* Set the border style */
+}
+.login-container .appoinment-section .appoinment-bottom-box .thin-line-group .new-to-site {
+  margin: 0 10px; /* Add some margin between the elements */
+}
+.login-container .appoinment-section .appoinment-bottom-box .create-website-button-group {
+  display: flex;
+  justify-content: center;
+}
+.login-container .appoinment-section .appoinment-bottom-box .create-website-button-group .create-website-button {
+  width: auto;
+  padding: 15px 45px;
+  background-color: #cf9f78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.login-container .appoinment-section .appoinment-bottom-box .create-website-button-group .create-website-button-sign-in {
+  display: none;
+  width: 48%; /* Set width to 30% of viewport height */
+  height: 60px;
+  padding: 10px;
+  background-color: #cf9f78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}/*# sourceMappingURL=login.css.map */

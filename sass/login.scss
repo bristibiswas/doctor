@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  // background-color: #f8f5f2;
+}
+
+.login-container {
+  padding: 7vw 8vw;
+  // background-color: #f8f5f2;
+
+  .appoinment-section {
+    display: flex;
+    flex-direction: column;
+
+    .appoinment-cardbox {
+      .appoinment-card {
+        display: flex;
+        padding: 15px 50px 15px 50px;
+        // border-radius: 20px;
+        overflow: hidden;
+        .appoinment-signupleft {
+          width: 50%;
+          background-color: #cf9f78;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+          box-shadow: #cf9f78 0px 7px 11px -1px;
+          position: relative;
+
+          h3{
+              position: absolute;
+              font-size: 45px;
+              color: #f9e8daa3;
+              font-weight: 600;
+              text-align: center;
+              top: 15%;
+              left: 27%;
+          }
+
+          img {
+            position: absolute;
+            width: 100%;
+            top: 42%;
+            left: 3%;
+          }
+        }
+
+        .appoinment-left {
+          width: 50%;
+          background-color: #cf9f78;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+          box-shadow: #cf9f78 0px 7px 11px -1px;
+          position: relative;
+
+          img {
+            position: absolute;
+            width: 100%;
+            top: 17%;
+            left: 3%;
+          }
+        }
+      }
+
+      .appoinment-right {
+        width: 50%;
+        // border: 1px solid black;
+        background-color: #ffffff;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: #cf9f78 5px 5px 12px -2px;
+        overflow: hidden;
+
+        .appoinment-box {
+          padding: 29px 32px;
+
+          h4 {
+            font-size: 26px;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: #cf9f78;
+          }
+
+          .input-group {
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+
+            label {
+              font-size: 15px;
+              font-weight: 300;
+              text-transform: capitalize;
+              color: #cf9f78;
+              padding: 10px 0;
+            }
+
+            .inputs {
+              width: 100%;
+              padding: 15px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 14px;
+              outline: none;
+              display: block;
+            }
+
+            .signup-btn {
+              width: 100%;
+              padding: 15px 5px;
+              background-color: #cf9f78;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              font-size: 14px;
+              margin: 10px 0;
+              cursor: pointer;
+              outline: none;
+            }
+
+            p {
+              padding: 12px 9px;
+              font-size: 14px;
+              color: #7e8787;
+            }
+          }
+        }
+      }
+    }
+
+    .appoinment-bottom-box {
+      padding: 0 120px;
+
+      margin: 0px 50px;
+
+      .thin-line-group {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Vertically center the content */
+        padding: 10px 0px;
+
+        .thin-line {
+          width: 19%; /* Set the width to 50px */
+          border-top: 1px solid #ccc; /* Set the border style */
+        }
+
+        .new-to-site {
+          margin: 0 10px; /* Add some margin between the elements */
+        }
+      }
+
+      .create-website-button-group {
+        display: flex;
+        justify-content: center;
+
+        .create-website-button {
+          width: auto;
+          padding: 15px 45px;
+          background-color: #cf9f78;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 14px;
+          font-weight: 600;
+          cursor: pointer;
+          outline: none;
+        }
+        .create-website-button-sign-in {
+          display: none;
+          width: 48%; /* Set width to 30% of viewport height */
+          height: 60px;
+          padding: 10px;
+          background-color: #cf9f78;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 14px;
+          cursor: pointer;
+          outline: none;
+        }
+      }
+    }
+  }
+}

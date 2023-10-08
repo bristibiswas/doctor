@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f8f5f2;
+}
+
+.b-btn {
+  border-radius: 37px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: capitalize;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+.b-btn-primary {
+  background: linear-gradient(90deg, #cf9f78 0%, #cf9f78 100%) border-box;
+  color: #f8f5f2;
+  transition: 0.5s ease-in-out;
+}
+
+.b-btn-primary:hover {
+  background: rgba(155, 73, 25, 0.78);
+  color: #f8f5f2;
+}
+
+.heading {
+  font-size: 59px;
+  font-weight: 800;
+  color: #ad795b;
+  text-transform: capitalize;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e1b07f;
+  text-transform: capitalize;
+}
+
+.blog-section .blog-container {
+  height: 60vh;
+  margin-top: 18vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blog-section .blog-container .blog-text {
+  width: 50%;
+  display: flex;
+  padding-left: 9vw;
+  padding-top: 2vw;
+}
+.blog-section .blog-container .blog-text h1 {
+  font-size: 71px;
+  color: #ad795b;
+}
+.blog-section .blog-container .blog-text span {
+  font-size: 71px;
+  color: #ad795b;
+}
+.blog-section .blog-midContainer {
+  margin: 88px;
+  text-align: center;
+}
+.blog-section .blog-midContainer .blog-img img {
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: rgba(181, 90, 17, 0.6117647059) 2px 2px 6px -4px;
+}
+.blog-section .blog-midContainer .blog-heading {
+  margin: 30px 0 0 0;
+}
+.blog-section .blog-midContainer .blog-heading h3 {
+  margin: 40px 0;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: 800;
+  color: #ad795b;
+  text-align: left;
+}
+.blog-section .blog-midContainer .blog-para {
+  margin: 15px 0;
+}
+.blog-section .blog-midContainer .blog-para p {
+  text-align: left;
+  margin: 40px 0;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 500;
+  color: #cf9f78;
+}/*# sourceMappingURL=articleDetails.css.map */

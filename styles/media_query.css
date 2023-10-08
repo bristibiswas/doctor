@@ -1,0 +1,19 @@
+@media (max-width: 480px) {
+  .header-main #menu-toggle:checked ~ .links {
+    left: 0;
+  }
+  .header-main #hamburger-btn {
+    display: block;
+  }
+  .navbar-links {
+    position: fixed;
+    left: -100%;
+    top: 75px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background: #175d69;
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+}

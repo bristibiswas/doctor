@@ -1,0 +1,82 @@
+.time-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+ 
+  justify-content: center;
+}
+.booking-time {
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  /* box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12); */
+}
+.booking-heading {
+  font-size: 23px;
+  color: #cf5c19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.available-time {
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 10px;
+}
+.time-slot {
+  display: flex;
+  width: 21%;
+  margin: 10px;
+  border: 1px solid #939393;
+  border-radius: 15px;
+  justify-content: center;
+  padding: 8px;
+  color:#3834349c ;
+  /* background-color: #26d331; */
+  user-select: none;
+
+}
+.time-slot:hover {
+  border-color: #cf5c19;
+  /* color: #000000c2; */
+
+}
+.time-slot.active  {
+  background-color: #13a91d;
+  
+}
+
+.available-time input{
+  color: #000000c2;
+  
+  /* border: 1px solid #e7e7e7; */
+  padding:0 ;
+  letter-spacing: 0;
+  background-color: transparent;
+  line-height: inherit;
+  width: 10%;
+  /* margin-bottom: 14px; */
+  height: auto;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border ease 0.238s;
+  -moz-transition: border ease 0.238s;
+  transition: border ease 0.238s;
+}
+label{
+
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
